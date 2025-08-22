@@ -1,16 +1,20 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="./output.css" rel="stylesheet">
   <title>Airbnb</title>
 
 </head>
+
 <body>
-  <nav class="w-full">
-    <div class="flex justify-between items-center w-full mx-10">
+  <nav class="w-360 mx-auto">
+    <div class="flex justify-between items-center w-full">
       <div>
         <img src="./images/icon.svg" alt="SVG Icon" width="100" height="100" class="text-red-400">
       </div>
@@ -22,7 +26,7 @@
         </div>
         <div class=" flex items-center">
           <img src="./images/hotair.png" alt="" class="w-20">
-        <p class="text-lg text-gray-700">Experiences</p>
+          <p class="text-lg text-gray-700">Experiences</p>
         </div>
         <div class="flex items-center gap-x-4">
           <img src="./images/bellicon.png" alt="" class="w-20">
@@ -30,17 +34,141 @@
         </div>
       </div>
 
-     <div class="flex justify-between gap-x-6 items-center">
-      <p class="font-semibold">Become a host</p>
-      <div class="px-3 py-3 bg-gray-200 rounded-full">
-        <img src="./images/globe.svg" alt="" class="w-6">
+      <div class="flex justify-between gap-x-6 items-center">
+        <p class="font-semibold">Become a host</p>
+        <div class="px-3 py-3 bg-gray-200 rounded-full">
+          <img src="./images/globe.svg" alt="" class="w-6">
+        </div>
+        <div class="px-3 py-3 bg-gray-200 rounded-full">
+          <i class="fa-solid fa-bars"></i>
+        </div>
       </div>
-      <div class="px-3 py-3 bg-gray-200 rounded-full">
-        <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <div class="grid grid-cols-4 w-250 border-1 shadow-2xl border-gray-400 mx-auto py-3 mt-7 rounded-full px-5">
+      <div class="border-r-1 border-gray-300 px-2">
+        <p class="text-sm font-semibold">Where</p>
+        <p class="text-gray-700">Search destinations</p>
       </div>
-     </div>
-     </div>
+
+      <div class="border-r-1 border-gray-300 px-2">
+        <p class="text-sm font-semibold">Check in</p>
+        <p class="text-gray-700">Add</p>
+      </div>
+
+      <div class="border-r-1 border-gray-300 px-2">
+        <p class="text-sm font-semibold">Check out</p>
+        <p class="text-gray-700">Add dates</p>
+      </div>
+
+      <div class="px-2 flex justify-between">
+        <div>
+        <p class="text-sm font-semibold">Who</p>
+        <p class="text-gray-700">Add guest</p>
+        </div>
+        <button class=" bg-red-400 rounded-full h-12 w-12 "><i class="fa-solid fa-magnifying-glass text-white"></i></button>
+      </div>
+    </div>
     </div>
   </nav>
+
+  <footer class="bg-gray-100 w-full">
+      <div class="w-360 mx-auto">
+        <p class="text-2xl font-semibold py-2">Inspiration for future getaways</p>
+        <div class="flex items-center gap-x-4">
+          <p class="border-b-3 py-3 font-semibold">Travel tips & inspiration</p>
+          <p class="text-gray-700">Airbnb-friendly apartments</p>
+        </div>
+        <hr class="border-gray-400 border-1">
+
+        <div class="grid grid-cols-6 py-8 space-y-5">
+          <div>
+            <p class="font-semibold">Family travel hub</p>
+            <p class="text-gray-600 text-sm">Tips and inspiration</p>
+          </div>
+
+          <div>
+            <p class="font-semibold">Family budget travel</p>
+            <p class="text-gray-600 text-sm">Get there for less</p>
+          </div>
+
+          <div>
+            <p class="font-semibold">Vacation ideas for any budget</p>
+            <p class="text-gray-600 text-sm">Make it special without making its</p>
+          </div>
+
+          <div>
+            <p class="font-semibold">Travel Europe on a budget</p>
+            <p class="text-gray-600 text-sm">How to take the kids to Europe for</p>
+          </div>
+
+          <div>
+            <p class="font-semibold">Outdoor adventure</p>
+            <p class="text-gray-600 text-sm">Explore nature with the family</p>
+          </div>
+
+          <div>
+            <p class="font-semibold">Bucket list national parks</p>
+            <p class="text-gray-600 text-sm">Must-see parks for family travel</p>
+          </div>
+
+          <div>
+            <p class="font-semibold">Kid-friendly state parks</p>
+            <p class="text-gray-600 text-sm">Check out these family-friendly hi</p>
+          </div>
+        </div>
+
+        <div class=" grid grid-cols-3 py-10">
+          <div>
+            <ul class="text-gray-800 space-y-2">
+              <li class="text-lg font-semibold">Support</li>
+              <li>Help Center</li>
+              <li>AirCover</li>
+              <li>Anti-discrimination</li>
+              <li>Disability support</li>
+              <li>Cancellation options</li>
+              <li>Report neighbordhood concern</li>
+            </ul>
+          </div>
+
+          <div>
+            <ul class="text-gray-800 space-y-2">
+              <li class="text-lg font-semibold">Hosting</li>
+              <li>Airbnb your home</li>
+              <li>Airbnb your experience</li>
+              <li>Airbnb your Service</li>
+              <li>AirCover for Hosts</li>
+              <li>Hosting resources</li>
+              <li>Community forum</li>
+              <li>Hosting responsibly</li>
+              <li>Airbnb-friendly apartments</li>
+              <li>Join a free-Hosting class</li>
+              <li>Find a co-host</li>
+            </ul>
+          </div>
+
+          <div>
+            <ul class="text-gray-800 space-y-2">
+              <li class="text-lg font-semibold">Airbnb</li>
+              <li>2025 Summer Release</li>
+              <li>Newsroom</li>
+              <li>Careers</li>
+              <li>Investors</li>
+              <li>Gift cards</li>
+              <li>Airbnb.org emergency stays</li>
+            </ul>
+          </div>
+        </div>
+        <hr class="border-gray-400 border-1">
+        <div class="py-8 flex gap-x-3">
+          <p>&copy;2025 Airbnb,Inc &middot; Terms &middot; Sitemap &middot; Privacy
+            &middot; Your Privacy Choices </p>
+            <div class="border border-blue-700 h-6 w-16 rounded-2xl flex items-center">
+              <button class="w-1/2"><i class="fa-solid fa-check text-blue-500"></i></button>
+              <button class="w-1/2 bg-blue-600 rounded-r-2xl"><i class="fa-solid fa-xmark text-white"></i></button>
+            </div>
+        </div>
+      </div>
+  </footer>
 </body>
 </html>
